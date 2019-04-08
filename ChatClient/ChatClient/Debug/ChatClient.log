@@ -1,0 +1,4 @@
+﻿  ChatClientDlg.cpp
+f:\application\chatclient\chatclient\chatclientdlg.cpp(200): warning C4101: 'client_socket': unreferenced local variable
+  ChatClient.vcxproj -> F:\Application\ChatClient\Debug\ChatClient.exe
+  ChatClient.vcxproj -> F:\Application\ChatClient\Debug\ChatClient.pdb (Partial PDB)

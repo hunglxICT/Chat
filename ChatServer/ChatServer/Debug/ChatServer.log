@@ -1,0 +1,4 @@
+﻿  ChatServerDlg.cpp
+f:\application\chatserver\chatserver\chatserverdlg.cpp(450): warning C4018: '<': signed/unsigned mismatch
+  ChatServer.vcxproj -> F:\Application\ChatServer\Debug\ChatServer.exe
+  ChatServer.vcxproj -> F:\Application\ChatServer\Debug\ChatServer.pdb (Partial PDB)

@@ -1,0 +1,3 @@
+{"request": "response_register", "value": {"response": "Register success"}}
+{"response": "Register success"}
+hung123

@@ -1,0 +1,21 @@
+Request format:
+{"request":<request>, "value":<value>}
+- <request> = :
+  + "register":
+    <value> = {"username":<username>, "password":<password>}
+    {"request":"register","value":{"username":"hungle","password":"hung123"}}
+  + "response_register":
+    <value> = {"response":<response>}
+  + "login":
+    <value> = {"username":<username>, "password":<password>}
+    (server send back a login token)
+  + "response_login":
+    <value> = {"response":<response>,"login_token":<token value>}
+  + "send_message":
+    <value> = {"login_token":<token value>, "sender_id":<senderid>, "receiver_id":<receiverid>, "message":<base64 of message>, "timestamp":<timestamp>}
+  + "response_send_message":
+    <value> = {"response":<response>}
+  + "receive_message":
+    <value> = {"sender_id":<senderid>, "message":<base64 of message>}
+  + "response_receive_message":
+    <value> = {"response":<response>}
